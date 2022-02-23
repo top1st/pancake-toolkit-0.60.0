@@ -20,7 +20,7 @@ const SocialLinks: React.FC<FlexProps> = ({ ...props }) => (
       if (social.items) {
         return (
           <Dropdown key={social.label} position="top" target={<IconComponent {...iconProps} mr={mr} />}>
-            {social.items.map((item) => (
+            {social.items.map((item: any) => (
               <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
                 {item.label}
               </Link>
