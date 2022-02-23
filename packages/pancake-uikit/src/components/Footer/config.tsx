@@ -79,36 +79,36 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/mintyswap",
+    href: "https://twitter.com/MetaProfitsDAO",
   },
-  {
-    label: "Telegram",
-    icon: "Telegram",
-    items: [
-      {
-        label: "Community",
-        href: "https://t.me/mintyswap",
-      },
-      {
-        label: "Announcement",
-        href: "https://t.me/mintyswapannouncements",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/Mintyswap_cn",
-      },
-    ],
-  },
+  // {
+  //   label: "Telegram",
+  //   icon: "Telegram",
+  //   items: [
+  //     {
+  //       label: "Community",
+  //       href: "https://t.me/mintyswap",
+  //     },
+  //     {
+  //       label: "Announcement",
+  //       href: "https://t.me/mintyswapannouncements",
+  //     },
+  //     {
+  //       label: "中文",
+  //       href: "https://t.me/Mintyswap_cn",
+  //     },
+  //   ],
+  // },
   // {
   //   label: "Reddit",
   //   icon: "Reddit",
   //   href: "https://reddit.com/r/pancakeswap",
   // },
-  {
-    label: "Instagram",
-    icon: "Instagram",
-    href: "https://www.instagram.com/mintyswap",
-  },
+  // {
+  //   label: "Instagram",
+  //   icon: "Instagram",
+  //   href: "https://www.instagram.com/mintyswap",
+  // },
   // {
   //   label: "Github",
   //   icon: "Github",
@@ -117,7 +117,7 @@ export const socials = [
   {
     label: "Discord",
     icon: "Discord",
-    href: "https://discord.gg/mintyswap",
+    href: "https://themoneyfriends.com/metadao",
   },
 ];
 
