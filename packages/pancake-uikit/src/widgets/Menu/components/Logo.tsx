@@ -18,13 +18,13 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   .mobile-icon {
-    width: 32px;
+    width: 36px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
   }
   .desktop-icon {
-    width: 130px;
+    width: 178px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -49,9 +49,9 @@ const Logo: React.FC<Props> = ({ isDark, href }) => {
   const innerLogo = (
     <>
       {/* <LogoIcon className="mobile-icon" /> */}
-      <img className="mobile-icon" src="/images/mobile-logo.png" width={30} alt="Mobile Logo" />
+      <img className="mobile-icon" src={isDark?"/images/mobile-logo-dark.png":"/images/mobile-logo.png"} width={36} alt="Mobile Logo" />
       {/* <LogoWithTextIcon className="desktop-icon" isDark={isDark} /> */}
-      <img className="desktop-icon" src="/images/logo.png" width={130} alt="Logo" />
+      <img className="desktop-icon" src={isDark?"/images/logo-dark.png":"/images/logo.png"} width={178} alt="Logo" />
     </>
   );
 

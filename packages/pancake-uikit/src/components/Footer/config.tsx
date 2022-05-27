@@ -75,39 +75,26 @@ export const footerLinks: FooterLinkType[] = [
   },
 ];
 
-export const socials: any[] = [
+export const socials = [
+  {
+    label: "Website",
+    icon: "Home",
+    href: "https://www.projectcarecoin.com",
+  },
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/MetaProfitsDAO",
+    href: "https://www.twitter.com/carecoinfamily",
   },
-  // {
-  //   label: "Telegram",
-  //   icon: "Telegram",
-  //   items: [
-  //     {
-  //       label: "Community",
-  //       href: "https://t.me/mintyswap",
-  //     },
-  //     {
-  //       label: "Announcement",
-  //       href: "https://t.me/mintyswapannouncements",
-  //     },
-  //     {
-  //       label: "中文",
-  //       href: "https://t.me/Mintyswap_cn",
-  //     },
-  //   ],
-  // },
+  {
+    label: "Telegram",
+    icon: "Telegram",
+    href: "https://t.me/carecoinfamily",
+  },
   // {
   //   label: "Reddit",
   //   icon: "Reddit",
   //   href: "https://reddit.com/r/pancakeswap",
-  // },
-  // {
-  //   label: "Instagram",
-  //   icon: "Instagram",
-  //   href: "https://www.instagram.com/mintyswap",
   // },
   // {
   //   label: "Github",
@@ -115,9 +102,9 @@ export const socials: any[] = [
   //   href: "https://github.com/pancakeswap/",
   // },
   {
-    label: "Discord",
-    icon: "Discord",
-    href: "https://themoneyfriends.com/metadao",
+    label: "Token",
+    icon: "Search",
+    href: "https://bscscan.com/address/0x6b79d658baa3b5c7fa7dc5ccc61e09b6c725842c",
   },
 ];
 

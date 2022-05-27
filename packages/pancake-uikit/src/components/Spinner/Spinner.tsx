@@ -25,16 +25,26 @@ const float = keyframes`
 	}
 `;
 
+const pulse = keyframes`
+	0% {
+		transform: scale(0.8);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0.8);
+	}
+`;
+
 const Container = styled.div`
   position: relative;
 `;
 
-const RotatingPancakeIcon = styled(PancakeIcon)`
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: ${rotate} 2s linear infinite;
-  transform: translate3d(0, 0, 0);
+const PulseIcon = styled.img`
+  animation: ${pulse} 2s linear infinite;
+  transform: translate(-50%, -50%);
+  width: 100px;
 `;
 
 const FloatingPanIcon = styled(PanIcon)`
@@ -45,8 +55,9 @@ const FloatingPanIcon = styled(PanIcon)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
     <Container>
-      {/*<RotatingPancakeIcon width={`${size * 0.5}px`} />*/}
-      <FloatingPanIcon width={`${size}px`} />
+      {/* <RotatingPancakeIcon width={`${size * 0.5}px`} />
+      <FloatingPanIcon width={`${size}px`} /> */}
+      <PulseIcon alt="" src="/images/loading.png" />
     </Container>
   );
 };

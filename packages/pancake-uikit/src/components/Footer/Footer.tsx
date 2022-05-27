@@ -69,14 +69,14 @@ const MenuItem: React.FC<FooterProps> = ({
             <img width="160" src="/images/logo.png" alt="Logo" />
           </Box>
         </Flex> */}
-        <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+        {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
         <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
-            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+            {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
             {/* <LangSelector
               currentLang={currentLang}
               langs={langs}
@@ -84,6 +84,7 @@ const MenuItem: React.FC<FooterProps> = ({
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
             /> */}
+            <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
