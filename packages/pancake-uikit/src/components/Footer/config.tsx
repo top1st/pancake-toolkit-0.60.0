@@ -77,34 +77,14 @@ export const footerLinks: FooterLinkType[] = [
 
 export const socials = [
   {
-    label: "Website",
-    icon: "Home",
-    href: "https://www.projectcarecoin.com",
-  },
-  {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://www.twitter.com/carecoinfamily",
+    href: "https://www.twitter.com/shardeumSwap",
   },
   {
-    label: "Telegram",
-    icon: "Telegram",
-    href: "https://t.me/carecoinfamily",
-  },
-  // {
-  //   label: "Reddit",
-  //   icon: "Reddit",
-  //   href: "https://reddit.com/r/pancakeswap",
-  // },
-  // {
-  //   label: "Github",
-  //   icon: "Github",
-  //   href: "https://github.com/pancakeswap/",
-  // },
-  {
-    label: "Token",
-    icon: "Search",
-    href: "https://bscscan.com/address/0x6b79d658baa3b5c7fa7dc5ccc61e09b6c725842c",
+    label: "Discord",
+    icon: "Discord",
+    href: "https://discord.gg/nVY3r59tR5",
   },
 ];
 
